@@ -26,7 +26,7 @@
             color: #ffffff;
         }
         .logo {
-            width: 140px;
+            width: 160px;
             margin: 10px auto 20px;
             display: block;
         }
@@ -47,13 +47,21 @@
             image-rendering: pixelated;
             border: 3px solid #444;
             background: #000;
-            animation: zoomPulse 15s infinite ease-in-out;
+            animation: robotAnim 18s infinite ease-in-out;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
         }
-        @keyframes zoomPulse {
-            0%   { transform: scale(1.0); }
-            50%  { transform: scale(1.035); }
-            100% { transform: scale(1.0); }
+        @keyframes robotAnim {
+            0%   { transform: scale(1.0) rotate(0deg); }
+            25%  { transform: scale(1.04) rotate(0.5deg); }
+            50%  { transform: scale(1.02) rotate(-0.5deg); }
+            75%  { transform: scale(1.045) rotate(0.3deg); }
+            100% { transform: scale(1.0) rotate(0deg); }
         }
+        .collection:hover {
+            animation-play-state: paused;
+            box-shadow: 0 0 50px rgba(0, 255, 255, 0.6);
+        }
+
         .supply {
             font-size: 1.15rem;
             margin: 25px 0 35px;
@@ -78,7 +86,7 @@
 <body>
     <div class="header">
         <h1>LOOK AT THEM.<br>They're right here.</h1>
-        <img src="image (1).jpg" alt="Non-Playable Robot Logo" class="logo">
+        <img src="1000111237-removebg-preview.png" alt="Non-Playable Robot Logo" class="logo">
     </div>
 
     <div class="main-box">
@@ -94,7 +102,7 @@
     </p>
 
     <footer>
-        © 2026 Non-Playable Robot <br>
+        © 2026 Non-Playable Robot • nprobot.xyz<br>
         <a href="https://x.com/NPRoboteth" style="color:#fff;">@NPRoboteth</a>
     </footer>
 </body>
