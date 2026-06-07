@@ -17,30 +17,29 @@
             overflow-x: hidden;
         }
         .header {
-            padding: 35px 15px 20px;
+            padding: 30px 15px 15px;
         }
         h1 {
-            font-size: 2.1rem;
+            font-size: 2rem;
             line-height: 1.15;
-            margin: 0 0 30px 0;
+            margin: 0 0 20px 0;
             color: #ffffff;
         }
         .logo {
-            width: 150px;
-            margin: 0 auto 30px;
+            width: 140px;
+            margin: 10px auto 20px;
             display: block;
         }
         .main-box {
             background: #111;
             border: 3px solid #ffffff;
-            padding: 25px 15px;
+            padding: 20px 15px;
             max-width: 440px;
-            margin: 0 auto 40px;
+            margin: 0 auto 30px;
         }
         .title {
-            font-size: 1.5rem;
-            margin: 0 0 25px 0;
-            color: #fff;
+            font-size: 1.45rem;
+            margin: 10px 0 20px 0;
         }
         .collection {
             width: 100%;
@@ -48,31 +47,38 @@
             image-rendering: pixelated;
             border: 3px solid #444;
             background: #000;
-            animation: zoomPulse 12s infinite ease-in-out;
+            animation: zoomPulse 15s infinite ease-in-out;
         }
         @keyframes zoomPulse {
             0%   { transform: scale(1.0); }
-            50%  { transform: scale(1.04); }
+            50%  { transform: scale(1.035); }
             100% { transform: scale(1.0); }
         }
         .supply {
-            font-size: 1.2rem;
-            margin: 30px 0 50px;
-            letter-spacing: 3px;
+            font-size: 1.15rem;
+            margin: 25px 0 35px;
+            letter-spacing: 2px;
+        }
+        .description {
+            max-width: 420px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.9;
         }
         footer {
-            padding: 30px 20px 60px;
-            font-size: 0.85rem;
-            opacity: 0.8;
-            line-height: 1.6;
+            padding: 30px 20px 50px;
+            font-size: 0.8rem;
+            opacity: 0.75;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>LOOK AT THEM.<br>They're right here.</h1>
-        
-        <img src="image (1).jpg" alt="Logo" class="logo">
+        <img src="image (1).jpg" alt="Non-Playable Robot Logo" class="logo">
     </div>
 
     <div class="main-box">
@@ -81,6 +87,11 @@
     </div>
 
     <p class="supply">TOTAL SUPPLY <strong>10,000</strong></p>
+
+    <p class="description">
+        A generative NFT collection of 10,000 unique Non-Playable Robots living on the blockchain. 
+        Each robot is one-of-a-kind with different traits, ready to join the digital world.
+    </p>
 
     <footer>
         © 2026 Non-Playable Robot <br>
