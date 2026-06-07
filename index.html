@@ -17,47 +17,54 @@
             overflow-x: hidden;
         }
         .header {
-            padding: 30px 15px 10px;
+            padding: 35px 15px 20px;
         }
         h1 {
-            font-size: 2rem;
+            font-size: 2.1rem;
             line-height: 1.15;
-            margin: 0 0 25px 0;
-            text-shadow: 0 0 20px #00ffff;
+            margin: 0 0 30px 0;
+            color: #ffffff;
         }
         .logo {
-            width: 140px;
-            margin: 0 auto 25px;
+            width: 150px;
+            margin: 0 auto 30px;
             display: block;
         }
         .main-box {
             background: #111;
-            border: 3px solid #00ffff;
+            border: 3px solid #ffffff;
             padding: 25px 15px;
             max-width: 440px;
-            margin: 0 auto 30px;
+            margin: 0 auto 40px;
         }
         .title {
-            font-size: 1.45rem;
-            margin: 15px 0 25px 0;
+            font-size: 1.5rem;
+            margin: 0 0 25px 0;
+            color: #fff;
         }
         .collection {
             width: 100%;
             max-height: 420px;
             image-rendering: pixelated;
-            border: 2px solid #222;
+            border: 3px solid #444;
             background: #000;
+            animation: zoomPulse 12s infinite ease-in-out;
+        }
+        @keyframes zoomPulse {
+            0%   { transform: scale(1.0); }
+            50%  { transform: scale(1.04); }
+            100% { transform: scale(1.0); }
         }
         .supply {
-            font-size: 1.15rem;
-            margin: 30px 0 40px;
-            letter-spacing: 2px;
+            font-size: 1.2rem;
+            margin: 30px 0 50px;
+            letter-spacing: 3px;
         }
         footer {
-            padding: 40px 20px 60px;
+            padding: 30px 20px 60px;
             font-size: 0.85rem;
-            opacity: 0.75;
-            line-height: 1.5;
+            opacity: 0.8;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -65,19 +72,19 @@
     <div class="header">
         <h1>LOOK AT THEM.<br>They're right here.</h1>
         
-        <img src="image (1).jpg" alt="Non-Playable Robot Logo" class="logo">
-        
-        <div class="main-box">
-            <div class="title">Non-Playable Robot</div>
-            <img src="fbe51d79-1593-4059-ac92-7658fb193fdf.png" alt="Robot Collection" class="collection">
-        </div>
+        <img src="image (1).jpg" alt="Logo" class="logo">
+    </div>
+
+    <div class="main-box">
+        <div class="title">Non-Playable Robot</div>
+        <img src="fbe51d79-1593-4059-ac92-7658fb193fdf.png" alt="Robot Collection" class="collection">
     </div>
 
     <p class="supply">TOTAL SUPPLY <strong>10,000</strong></p>
 
     <footer>
         © 2026 Non-Playable Robot <br>
-        <a href="https://x.com/NPRoboteth" style="color:#00ffff;">@NPRoboteth</a>
+        <a href="https://x.com/NPRoboteth" style="color:#fff;">@NPRoboteth</a>
     </footer>
 </body>
 </html>
