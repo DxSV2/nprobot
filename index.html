@@ -74,37 +74,21 @@
             opacity: 0.9;
         }
 
-        /* Roadmap - Versi Simpel Putih Hitam */
-        .roadmap {
-            max-width: 480px;
-            margin: 40px auto;
-            padding: 20px 18px;
-            background: #111;
-            border: 2px solid #ffffff;
-            text-align: left;
+        .btn-roadmap {
+            display: inline-block;
+            margin: 20px auto 40px;
+            padding: 15px 30px;
+            background: #000;
+            color: #fff;
+            border: 3px solid #fff;
+            font-family: 'Press Start 2P', system-ui;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
         }
-        .roadmap h2 {
-            text-align: center;
-            margin: 0 0 20px 0;
-            font-size: 1.35rem;
-            color: #ffffff;
-        }
-        .roadmap ul {
-            padding-left: 18px;
-            margin: 0;
-        }
-        .roadmap li {
-            margin-bottom: 22px;
-            font-size: 0.8rem;
-            line-height: 1.55;
-            color: #ffffff;
-        }
-        .disclaimer {
-            font-size: 0.68rem;
-            opacity: 0.7;
-            margin-top: 8px;
-            display: block;
-            line-height: 1.4;
+        .btn-roadmap:hover {
+            background: #fff;
+            color: #000;
         }
 
         footer {
@@ -112,18 +96,6 @@
             font-size: 0.85rem;
             opacity: 0.8;
             line-height: 1.6;
-        }
-        .x-link {
-            color: #fff;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            justify-content: center;
-        }
-        .x-logo {
-            width: 26px;
-            height: 26px;
         }
     </style>
 </head>
@@ -145,27 +117,7 @@
         Each robot is one-of-a-kind with different traits, ready to join the digital world.
     </p>
 
-    <!-- Roadmap Section -->
-    <div class="roadmap">
-        <h2>ROADMAP</h2>
-        <ul>
-            <li><strong>Public Mint</strong><br>
-                10,000 Non-Playable Robots launching on Ethereum.<br>
-                Open mint for everyone.</li>
-            
-            <li><strong>Awakening Protocol</strong><br>
-                Breeding Hybrid Character<br>
-                Holders of 1 NPC + 1 NPR can create a Hybrid Character (limited supply).<br>
-                <span class="disclaimer"><strong>Disclaimer:</strong> NPR is not officially affiliated with the NPC project or @npconchain. The Awakening Protocol is a community-driven collaboration.</span></li>
-            
-            <li><strong>Hybrid Utility</strong><br>
-                2x higher staking rewards<br>
-                Exclusive access and future benefits.</li>
-            
-            <li><strong>Expansion</strong><br>
-                Mini game, Generation 2 Breeding, and further development.</li>
-        </ul>
-    </div>
+    <a href="roadmap.html" class="btn-roadmap">VIEW ROADMAP</a>
 
     <footer>
         © 2026 Non-Playable Robot<br>
